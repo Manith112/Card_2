@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Outfit:wght@300;400;500&family=Poppins:wght@400;500&family=Public+Sans:wght@100;200;500&family=Raleway:wght@500&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #F2F5F9;
+    
+}
+.card{
+    
+   width: 400px;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   /* height: 580px; */
+   
+    
+}
+.card-img{
+    background-image: url('./white-overlay.svg'),url("./hero-image-business-card.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom, 100%;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.card .title{
+    padding: 0px 25px 20px 25px;
+    /* font-family: 'Lato', sans-serif; */
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #111729;
+    font-weight: 600;
+}
+.card .para{
+    color: #677489;
+    font-family: 'Lato', sans-serif;
+    padding: 0px 25px 25px 25px;
+    font-size: 1rem;
+    line-height: 25px;
+
+}
+.logo{
+    
+    width: 50px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 20px 5px 2px 5px;
+}
+.column{
+    display: flex;
+    
+}
+.avatar{
+    padding: 20px 25px;
+    
+}
+.avatar img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: #677489;
+   
+}
+hr{
+   background-color: #677489;
+   
+}
+.text{
+    padding-top: 15px ;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+.Amy{
+   
+    font-size: 1rem;
+
+}
+.customer{
+    font-size: 0.75rem;
+    color: #677489;
+}
